@@ -1,0 +1,101 @@
+.logo{
+  height: 59px;
+}
+.btn-fanta-purple {
+  background: linear-gradient(90deg, #8e24aa 60%, #ce93d8 100%);
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  border-radius: 50px;
+}
+.btn-fanta-purple:hover {
+  background: linear-gradient(90deg, #ce93d8 60%, #8e24aa 100%);
+  color: #fff;
+}
+
+.bg-fanta-orange-gradient {
+  background: linear-gradient(135deg, #ff9500 60%, #ffb347 100%);
+}
+.bg-fanta-purple-gradient {
+  background: linear-gradient(135deg, #8e24aa 60%, #ce93d8 100%);
+}
+.bg-fanta-pink-gradient {
+  background: linear-gradient(135deg, #ff5e62 60%, #ff9966 100%);
+}
+
+.card {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card-img-top {
+  height: 110px;
+  object-fit: scale-down;
+  filter:brightness(1.1);
+}
+
+.card-body {
+  background: rgba(255,255,255,0.07); /* Sutil overlay para legibilidad */
+  border-radius: 0 0 20px 20px;
+  padding: 1.5rem;
+}
+
+.bg-fanta-orange {
+  background: linear-gradient(90deg, #ff9500 60%, #ffb347 100%);
+  font-style: italic;
+  font-size: 20px;
+}
+
+.bg-fanta-purple {
+  background: linear-gradient(90deg, #8e24aa 60%, #ce93d8 100%);
+}
+
+.text-fanta-orange {
+  color: #ff9500 !important;
+}
+
+.btn-fanta {
+  background: linear-gradient(90deg, #ff9500 60%, #ffb347 100%);
+  color: #fff;
+  border: none;
+  font-weight: bold;
+}
+
+.btn-fanta:hover {
+  background: linear-gradient(90deg, #ff5e62 60%, #ff9966 100%);
+  color: #fff;
+}
+
+.espacio-navbar {
+  height: 48px;
+}
+
+.hero-overlay {
+  background: linear-gradient(90deg, #ff5e62 60%, #ff9966 100%);
+  padding: 60px 30px;
+  min-height: 350px;
+  border-radius: 0 0 40px 40px;
+}
+footer {
+  text-align: center;
+  background-color: #8e24aa;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 100;
+  font-style: oblique;
+}
+ul{
+  list-style: none;
+}
+@media (max-width: 768px) {
+  .espacio-navbar {
+    height: 32px;
+  }
+  .hero-overlay {
+    padding: 30px 10px;
+    min-height: 220px;
+  }
+  .card-img-top {
+    height: 140px;
+  }
+}

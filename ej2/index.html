@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fanta - Siente el sabor</title>
+  <link href="./css/index.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-fanta-orange navbar-dark shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#inicio">
+        <img src="./img/fanta.png" alt="Logo Fanta" class="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sabores">Sabores</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="espacio-navbar"></div>
+
+  <section class="hero-img position-relative" id="inicio">
+    <div class="hero-overlay text-center text-white d-flex flex-column justify-content-center align-items-center">
+      <h1 class="display-4 fw-bold">¡Siente la explosión de sabor!</h1>
+      <p class="lead mb-3">Fanta es la gaseosa refrescante y vibrante que llena tus días de color y alegría. Disfruta su sabor único, burbujeante y frutal, perfecto para compartir con amigos o refrescarte en cualquier momento.</p>
+      <p>¿Listo para probar algo diferente? Descubre todos nuestros sabores y déjate sorprender.</p>
+      <a href="#sabores" class="btn btn-fanta-purple btn-lg mt-2">Ver Sabores</a>
+    </div>
+  </section>
+
+  <section class="container my-5" id="sabores">
+  <div class="row g-4">
+    <div class="col-12 col-md-4">
+      <div class="card h-100 shadow-lg border-0 bg-fanta-orange-gradient text-white">
+        <img src="./img/naranja.jpg" class="card-img-top" alt="Fanta Naranja">
+        <div class="card-body">
+          <h2 class="card-title">Naranja Clásica</h2>
+          <p class="card-text">El sabor original y más icónico de Fanta. Refrescante, burbujeante y llena de energía cítrica.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-4">
+      <div class="card h-100 shadow-lg border-0 bg-fanta-purple-gradient text-white">
+        <img src="./img/uva.jpg" class="card-img-top" alt="Fanta Uva">
+        <div class="card-body">
+          <h2 class="card-title">Uva Exótica</h2>
+          <p class="card-text">Un toque dulce y diferente. Fanta Uva es la favorita para quienes buscan algo fuera de lo común.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-4">
+      <div class="card h-100 shadow-lg border-0 bg-fanta-pink-gradient text-white">
+        <img src="./img/fresa.jpg" class="card-img-top" alt="Fanta Fresa">
+        <div class="card-body">
+          <h2 class="card-title">Fresa Divertida</h2>
+          <p class="card-text">El sabor más alegre y vibrante. Perfecta para compartir momentos inolvidables con amigos y familia.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <section class="container my-5" id="contacto">
+    <div class="row justify-content-center">
+      <div class="col-lg-7">
+        <div class="card shadow-sm border-0">
+          <div class="card-body">
+            <h2 class="card-title text-fanta-orange mb-3">Contáctanos</h2>
+            <p>¿Tienes preguntas o quieres saber más? Escríbenos o llámanos:</p>
+            <form>
+              <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Tu nombre" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required>
+              </div>
+              <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="3" placeholder="Escribe tu mensaje aquí..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-fanta">Enviar</button>
+            </form>
+            <ul>
+              <li><strong>Email:</strong> contacto@fanta.com</li>
+              <li><strong>Teléfono:</strong> +57 3512345678</li>
+              <li><strong>Dirección:</strong> Av. Refresca 123, Ciudad Bogotá, País Colombia</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Fanta. Todos los derechos reservados.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
